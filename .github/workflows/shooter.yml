@@ -1,27 +1,22 @@
-name: Generate Space Shooter GIF
+name: Update Space Shooter Game
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  update-game:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate GitHub Space Shooter
-        uses: czl9707/gh-space-shooter@v1.0.4
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
 
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - uses: czl9707/gh-space-shooter@v1
         with:
-          target_branch: output
-          build_dir: .
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: 'game.gif'
+          strategy: 'random'
