@@ -1,9 +1,12 @@
 name: Generate Space Shooter GIF
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"   # Runs daily at 00:00 UTC
-  workflow_dispatch:       # Allows manual run from Actions tab
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -12,16 +15,11 @@ jobs:
     steps:
       - name: Generate GitHub Space Shooter
         uses: czl9707/gh-space-shooter@v1.0.4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          output_name: dist/github-snake.gif
 
-      - name: Push to repository
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-# Updating workflow trigger
