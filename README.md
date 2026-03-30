@@ -1,5 +1,5 @@
 # 💫 About Me:
-🚀 About Me<br>🔭 I’m currently working on leading the official IIT Patna website.<br><br>👯 I’m looking to collaborate on high-impact MERN stack projects or open-source ML tools.<br><br>🤝 I’m looking for help with mastering advanced system design and scaling distributed backends.<br><br>🌱 I’m currently learning Deep Learning and advanced optimization for Large Language Models.<br><br>💬 Ask me about Full-stack development, [LeetCode](https://leetcode.com/u/AnnonymousBanda) strategies (Knight 1875), or building for production.<br><br>⚡ Fun fact I treat the gym like a contest; chasing the perfect physique is just another "algorithm" to optimize.
+🔭 I’m currently working on leading the official IIT Patna website.<br><br>👯 I’m looking to collaborate on high-impact MERN stack projects or open-source ML tools.<br><br>🤝 I’m looking for help with mastering advanced system design and scaling distributed backends.<br><br>🌱 I’m currently learning Deep Learning and advanced optimization for Large Language Models.<br><br>💬 Ask me about Full-stack development, [LeetCode](https://leetcode.com/u/AnnonymousBanda) strategies (Knight 1875), or building for production.<br><br>⚡ Fun fact I treat the gym like a contest; chasing the perfect physique is just another "algorithm" to optimize.
 
 
 ## 🌐 Socials:
