@@ -15,7 +15,7 @@
 
 ## 📌 About Me
 
-- 🎓 Final Year CS undergrad at **IIT Patna**
+- 🎓 Final Year BTech undergrad at **IIT Patna**
 - 🎯 Obsessed with **frontend animations** — gunning for that Awwwards nomination
 - 💼 Actively taking on freelance clients — let's build something great together
 
